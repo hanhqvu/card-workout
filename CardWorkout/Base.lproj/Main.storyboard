@@ -67,6 +67,9 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="19"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="gbx-BF-E7E" kind="presentation" id="Cag-kl-xCv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -87,12 +90,12 @@
             </objects>
             <point key="canvasLocation" x="48" y="-2"/>
         </scene>
-        <!--View Controller-->
+        <!--RulesVC-->
         <scene sceneID="rYI-pu-6uM">
             <objects>
-                <viewController id="gbx-BF-E7E" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="5wc-xp-R5e">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                <viewController title="RulesVC" id="gbx-BF-E7E" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5wc-xp-R5e" customClass="ViewController" customModule="CardWorkout" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="q8B-ja-eUu"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>

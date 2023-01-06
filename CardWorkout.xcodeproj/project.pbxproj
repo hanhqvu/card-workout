@@ -13,6 +13,7 @@
 		C994B60929684A6B00E731BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C994B60829684A6B00E731BA /* Assets.xcassets */; };
 		C994B60C29684A6B00E731BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C994B60A29684A6B00E731BA /* LaunchScreen.storyboard */; };
 		C994B61629684B0F00E731BA /* CardSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994B61529684B0F00E731BA /* CardSelectionVC.swift */; };
+		C994B61829687A7200E731BA /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C994B61729687A7200E731BA /* RulesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C994B60B29684A6B00E731BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C994B60D29684A6B00E731BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C994B61529684B0F00E731BA /* CardSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardSelectionVC.swift; path = ../CardSelectionVC.swift; sourceTree = "<group>"; };
+		C994B61729687A7200E731BA /* RulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C994B5FF29684A6A00E731BA /* AppDelegate.swift */,
 				C994B60129684A6A00E731BA /* SceneDelegate.swift */,
 				C994B61529684B0F00E731BA /* CardSelectionVC.swift */,
+				C994B61729687A7200E731BA /* RulesVC.swift */,
 				C994B60529684A6A00E731BA /* Main.storyboard */,
 				C994B60829684A6B00E731BA /* Assets.xcassets */,
 				C994B60A29684A6B00E731BA /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C994B61829687A7200E731BA /* RulesVC.swift in Sources */,
 				C994B60029684A6A00E731BA /* AppDelegate.swift in Sources */,
 				C994B60229684A6A00E731BA /* SceneDelegate.swift in Sources */,
 				C994B61629684B0F00E731BA /* CardSelectionVC.swift in Sources */,
