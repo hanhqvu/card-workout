@@ -90,7 +90,7 @@
         <!--RulesVC-->
         <scene sceneID="rYI-pu-6uM">
             <objects>
-                <viewController title="RulesVC" id="gbx-BF-E7E" sceneMemberID="viewController">
+                <viewController title="RulesVC" id="gbx-BF-E7E" customClass="RulesVC" customModule="CardWorkout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="5wc-xp-R5e" customClass="ViewController" customModule="CardWorkout" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
